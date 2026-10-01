@@ -297,7 +297,46 @@ El caso de subsidios, ayudas o recursos sociales funcionará como escenario de d
 
 Esta delimitación protege la contribución doctoral: el objeto principal es el conocimiento metodológico y el artefacto de analytics; el caso público aporta evidencia de aplicabilidad, no una promesa de resultados sociales inmediatos.
 
-## 10. Diseños metodológicos posibles
+## 10. Validación con datos abiertos y simulación retrospectiva
+
+La validación no debe depender de que una entidad pública adopte formalmente PRODIG8 durante la tesis. Esa adopción puede requerir contratación, acuerdos de datos, autorizaciones jurídicas, cambios institucionales y ciclos presupuestales que exceden el doctorado.
+
+Se propone, por tanto, una validación retrospectiva con datos abiertos y datos históricos observables. El diseño general sería:
+
+1. utilizar la información disponible hasta 2024 para caracterizar el problema, preparar los datos, diseñar el modelo y generar recomendaciones;
+2. simular el proceso de decisión para 2025 sin utilizar anticipadamente los datos de resultado de ese año;
+3. contrastar las recomendaciones o asignaciones simuladas con los resultados reales observados en 2025;
+4. comparar el desempeño de PRODIG8-Público con una línea base, una regla institucional disponible, un método estadístico convencional o una estrategia de asignación alternativa;
+5. analizar equidad, cobertura, filtración, error, estabilidad, explicabilidad y sensibilidad de las decisiones.
+
+Este diseño puede denominarse **backtesting temporal**, **evaluación retrospectiva** o **pseudo-evaluación fuera de tiempo**. Es preferible a dividir aleatoriamente los registros, porque respeta la secuencia temporal y evita utilizar información futura durante el entrenamiento.
+
+La simulación debe distinguir tres preguntas:
+
+| Pregunta | Evidencia que puede producir |
+|---|---|
+| ¿La metodología permite ejecutar el proyecto de manera completa y trazable? | cumplimiento de fases, roles, productos, controles y documentación |
+| ¿El modelo habría producido mejores recomendaciones con la información disponible? | comparación contra línea base usando datos reales de 2025 |
+| ¿La política pública produjo mejores resultados por haber usado la metodología? | no puede demostrarse únicamente con backtesting; requeriría implementación real o diseño causal |
+
+La afirmación correcta no sería que la metodología “mejoró” la política pública, sino que **en una evaluación retrospectiva habría generado recomendaciones con mejor desempeño según criterios previamente definidos**.
+
+Para que el caso sea defendible se necesita:
+
+- una unidad de análisis estable, como hogar, comuna, barrio, municipio, programa o período;
+- variables disponibles antes del momento de decisión;
+- un resultado observable en 2025;
+- una línea base reproducible;
+- una función de utilidad o criterios de optimización definidos antes de mirar los resultados;
+- métricas de desempeño, equidad y robustez;
+- separación estricta entre datos de entrenamiento, validación y prueba temporal;
+- análisis de sensibilidad ante datos faltantes, cambios de distribución y escenarios presupuestales.
+
+Si los datos abiertos no contienen la asignación individual real de subsidios o ayudas, el estudio puede utilizar resultados observables indirectos, como cobertura territorial, cambios en indicadores de vulnerabilidad, ejecución presupuestal, atención de beneficiarios o distribución de recursos. En ese caso debe declararse que se evalúa la calidad de la recomendación y su coherencia con resultados observados, no el efecto causal sobre cada hogar.
+
+Este diseño convierte la metodología en un artefacto evaluable sin exigir adopción institucional. La entidad pública puede participar después como usuaria potencial o evaluadora experta, pero la evidencia principal de la tesis proviene del protocolo reproducible, los datos abiertos, el backtesting y la comparación con alternativas.
+
+## 11. Diseños metodológicos posibles
 
 | Diseño | Ventaja | Riesgo |
 |---|---|---|
@@ -316,7 +355,7 @@ La combinación más recomendable es:
 5. estudio de caso aplicado;
 6. evaluación multicriterio y análisis de equidad.
 
-## 11. Criterios de decisión
+## 12. Criterios de decisión
 
 La idea debería avanzar a formulación doctoral si se confirman estos resultados:
 
@@ -335,7 +374,7 @@ La idea debería reformularse o detenerse si:
 - se elimina la asignación equitativa de recursos y queda solo una metodología general;
 - la propuesta no puede articularse con una demanda territorial habilitada.
 
-## 12. Conclusión preliminar
+## 13. Conclusión preliminar
 
 La propuesta presenta **viabilidad científica preliminar alta, viabilidad metodológica alta y viabilidad administrativa condicionada exclusivamente por la Convocatoria 35 y sus instrumentos de ejecución**. La propuesta de admisión a la UNAL sirve como antecedente, pero no constituye por sí sola una restricción de la tesis.
 
@@ -352,7 +391,7 @@ La novedad no está en afirmar que el sector público necesita datos ni en aplic
 
 La recomendación es continuar con la idea, delimitándola como una **adaptación de PRODIG8 para government analytics, validada mediante un caso público concreto**. La tesis debe evaluar el artefacto y su aplicabilidad; los efectos sociales y presupuestales de largo plazo deben quedar como evaluación futura o fase posterior de transferencia. La investigación del estado del arte debe continuar hasta cerrar una revisión sistemática y demostrar que la combinación propuesta no está ya resuelta por un marco existente.
 
-## 13. Fuentes principales
+## 14. Fuentes principales
 
 1. OECD. (2019). *The Path to Becoming a Data-Driven Public Sector*. OECD Publishing. https://www.oecd.org/gov/the-path-to-becoming-a-data-driven-public-sector-059814a7-en.htm
 2. OECD. (2019). *A Data-Driven Public Sector*. GOV/PGC/EGOV(2019)3. https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/05/a-data-driven-public-sector_1c183670/09ab162c-en.pdf
@@ -374,13 +413,14 @@ La recomendación es continuar con la idea, delimitándola como una **adaptació
 18. Universidad Autónoma de Manizales. (2026). *Adenda No. 1 a los términos de referencia*. https://www.autonoma.edu.co/sites/default/files/2026-03/adenda-No-1-a-los-terminos-de-referencia-conv-35.pdf
 19. Universidad Autónoma de Manizales. (2026). *Convocatoria 35 Eje Cafetero*. https://www.autonoma.edu.co/convocatoria-35-eje-cafetero
 
-## 14. Próximas decisiones
+## 15. Próximas decisiones
 
 1. Ejecutar una revisión sistemática PRISMA 2020 con una ecuación reproducible.
 2. Construir una matriz comparativa de por lo menos 30 estudios y metodologías.
 3. Identificar la demanda territorial exacta a la que se adscribirá la tesis.
 4. Definir si el caso será subsidios de vivienda, recursos sociales, ayudas alimentarias o una comparación controlada.
 5. Verificar la disponibilidad de datos y de una entidad pública para validar el artefacto.
-6. Presentar al director una propuesta de una página, diferenciando problema, brecha, aporte, caso, validación y resultados medibles durante el doctorado.
-7. Separar en la documentación de trabajo las restricciones de la convocatoria de la propuesta no vinculante presentada a la UNAL.
-8. Solicitar concepto formal a la alianza únicamente sobre las obligaciones de la beca y la compatibilidad del nuevo alcance con el proyecto BPIN.
+6. Presentar al director una propuesta de una página, diferenciando problema, brecha, aporte, caso, validación retrospectiva y resultados medibles durante el doctorado.
+7. Seleccionar un conjunto de datos abiertos con corte temporal suficiente para entrenar con 2024 y probar con 2025.
+8. Separar en la documentación de trabajo las restricciones de la convocatoria de la propuesta no vinculante presentada a la UNAL.
+9. Solicitar concepto formal a la alianza únicamente sobre las obligaciones de la beca y la compatibilidad del nuevo alcance con el proyecto BPIN.
