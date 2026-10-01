@@ -3,7 +3,7 @@
 **Repositorio:** `sogonzalezpa/Tesis`  
 **Carpeta:** `idea-1`  
 **Fecha de corte:** 1 de octubre de 2026  
-**Propósito:** establecer si es científicamente, metodológicamente y administrativamente viable convertir PRODIG8 en una metodología para desarrollar proyectos de analítica en entidades públicas, dentro del proyecto BPIN 2024000100132.
+**Propósito:** establecer si es científicamente, metodológicamente y administrativamente viable convertir PRODIG8 en una metodología de *government analytics*, dentro de las restricciones de la Convocatoria 35 y el proyecto BPIN 2024000100132. La propuesta presentada para la admisión al Doctorado en Ingeniería—Sistemas e Informática de la Universidad Nacional de Colombia se considera un antecedente orientador, no una fuente vinculante de restricciones para la tesis.
 
 ## 1. Pregunta de decisión
 
@@ -11,7 +11,7 @@ La pregunta que orienta este estado preliminar del arte es:
 
 > ¿Existe un vacío metodológico suficientemente claro en la ejecución de proyectos de analítica para entidades públicas que justifique adaptar y validar PRODIG8, manteniendo la articulación con las demandas territoriales y los objetivos de la Convocatoria 35?
 
-La decisión no consiste todavía en cambiar la tesis. Consiste en determinar si la idea tiene una base científica defendible y qué condiciones debe cumplir antes de presentarse al director, al programa doctoral y a la alianza de la beca.
+La decisión no consiste todavía en cambiar la tesis. Consiste en determinar si la idea tiene una base científica defendible y qué condiciones debe cumplir frente a la convocatoria de la beca. La adscripción doctoral en Ingeniería—Sistemas e Informática, Facultad de Minas, delimita el campo científico hacia analytics; el estado del arte permite denominar el ámbito de aplicación como *government analytics*.
 
 ## 2. Alcance y estrategia de búsqueda
 
@@ -279,7 +279,25 @@ La propuesta debe mantener un problema público concreto. Una metodología abstr
 4. Aplicar la metodología a un caso de asignación de subsidios, ayudas o recursos sociales para población vulnerable.
 5. Validar la metodología mediante evaluación técnica, institucional, ética y de impacto público.
 
-## 9. Diseños metodológicos posibles
+## 9. Regla de alcance doctoral: artefacto, validación y resultados lejanos
+
+Una tesis doctoral no debe prometer simultáneamente desarrollar una metodología, implementarla en una entidad pública y medir efectos sociales o presupuestales definitivos. En *government analytics*, esos efectos pueden depender de ciclos presupuestales, cambios de gobierno, adopción institucional, decisiones jurídicas y comportamiento ciudadano que exceden el horizonte de la tesis.
+
+Por ello, la formulación debe separar tres niveles:
+
+| Nivel | Qué debe hacer la tesis | Qué no debe prometer |
+|---|---|---|
+| Diseño | construir PRODIG8-Público como artefacto metodológico, con fases, roles, productos, controles y criterios de decisión | afirmar que la metodología ya mejoró una política pública a gran escala |
+| Validación | demostrar pertinencia, coherencia, usabilidad, trazabilidad, factibilidad y desempeño en un caso o piloto controlado | atribuir cambios sociales de largo plazo exclusivamente al artefacto |
+| Impacto público | dejar indicadores, protocolo y diseño de evaluación para futuras implementaciones | medir como requisito doctoral la reducción definitiva de pobreza, desigualdad o filtración |
+
+La validación puede combinar revisión de expertos, Delphi, evaluación de criterios, estudio de caso, prueba piloto o comparación de escenarios. Los resultados esperados deben ser observables durante la tesis: completitud de fases, calidad de documentación, cumplimiento de requisitos de gobernanza, explicabilidad, equidad ex ante, utilidad percibida, reproducibilidad y capacidad de generar recomendaciones.
+
+El caso de subsidios, ayudas o recursos sociales funcionará como escenario de demostración y validación del artefacto. No se presentará como prueba definitiva de impacto de una política pública. La metodología deberá incluir un plan de evaluación posterior, pero la tesis solo estará obligada a demostrar que ese plan es técnicamente y metodológicamente viable.
+
+Esta delimitación protege la contribución doctoral: el objeto principal es el conocimiento metodológico y el artefacto de analytics; el caso público aporta evidencia de aplicabilidad, no una promesa de resultados sociales inmediatos.
+
+## 10. Diseños metodológicos posibles
 
 | Diseño | Ventaja | Riesgo |
 |---|---|---|
@@ -298,7 +316,7 @@ La combinación más recomendable es:
 5. estudio de caso aplicado;
 6. evaluación multicriterio y análisis de equidad.
 
-## 10. Criterios de decisión
+## 11. Criterios de decisión
 
 La idea debería avanzar a formulación doctoral si se confirman estos resultados:
 
@@ -317,9 +335,9 @@ La idea debería reformularse o detenerse si:
 - se elimina la asignación equitativa de recursos y queda solo una metodología general;
 - la propuesta no puede articularse con una demanda territorial habilitada.
 
-## 11. Conclusión preliminar
+## 12. Conclusión preliminar
 
-La propuesta presenta **viabilidad científica preliminar alta, viabilidad metodológica media-alta y viabilidad administrativa condicionada**.
+La propuesta presenta **viabilidad científica preliminar alta, viabilidad metodológica alta y viabilidad administrativa condicionada exclusivamente por la Convocatoria 35 y sus instrumentos de ejecución**. La propuesta de admisión a la UNAL sirve como antecedente, pero no constituye por sí sola una restricción de la tesis.
 
 La novedad no está en afirmar que el sector público necesita datos ni en aplicar CRISP-DM a una entidad. La posible contribución doctoral está en diseñar y validar una metodología que conecte:
 
@@ -332,9 +350,9 @@ La novedad no está en afirmar que el sector público necesita datos ni en aplic
 - evaluación de impacto;
 - aprendizaje y mejora continua.
 
-La recomendación es continuar con la idea, pero delimitarla como una **adaptación pública de PRODIG8 validada en un problema territorial concreto**. La investigación del estado del arte debe continuar hasta cerrar una revisión sistemática y demostrar que la combinación propuesta no está ya resuelta por un marco existente.
+La recomendación es continuar con la idea, delimitándola como una **adaptación de PRODIG8 para government analytics, validada mediante un caso público concreto**. La tesis debe evaluar el artefacto y su aplicabilidad; los efectos sociales y presupuestales de largo plazo deben quedar como evaluación futura o fase posterior de transferencia. La investigación del estado del arte debe continuar hasta cerrar una revisión sistemática y demostrar que la combinación propuesta no está ya resuelta por un marco existente.
 
-## 12. Fuentes principales
+## 13. Fuentes principales
 
 1. OECD. (2019). *The Path to Becoming a Data-Driven Public Sector*. OECD Publishing. https://www.oecd.org/gov/the-path-to-becoming-a-data-driven-public-sector-059814a7-en.htm
 2. OECD. (2019). *A Data-Driven Public Sector*. GOV/PGC/EGOV(2019)3. https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/05/a-data-driven-public-sector_1c183670/09ab162c-en.pdf
@@ -356,12 +374,13 @@ La recomendación es continuar con la idea, pero delimitarla como una **adaptaci
 18. Universidad Autónoma de Manizales. (2026). *Adenda No. 1 a los términos de referencia*. https://www.autonoma.edu.co/sites/default/files/2026-03/adenda-No-1-a-los-terminos-de-referencia-conv-35.pdf
 19. Universidad Autónoma de Manizales. (2026). *Convocatoria 35 Eje Cafetero*. https://www.autonoma.edu.co/convocatoria-35-eje-cafetero
 
-## 13. Próximas decisiones
+## 14. Próximas decisiones
 
 1. Ejecutar una revisión sistemática PRISMA 2020 con una ecuación reproducible.
 2. Construir una matriz comparativa de por lo menos 30 estudios y metodologías.
 3. Identificar la demanda territorial exacta a la que se adscribirá la tesis.
 4. Definir si el caso será subsidios de vivienda, recursos sociales, ayudas alimentarias o una comparación controlada.
 5. Verificar la disponibilidad de datos y de una entidad pública para validar el artefacto.
-6. Presentar al director una propuesta de una página, diferenciando problema, brecha, aporte, caso y resultados.
-7. Solicitar concepto formal sobre el alcance del cambio antes de modificar el título u objetivo registrado ante la alianza.
+6. Presentar al director una propuesta de una página, diferenciando problema, brecha, aporte, caso, validación y resultados medibles durante el doctorado.
+7. Separar en la documentación de trabajo las restricciones de la convocatoria de la propuesta no vinculante presentada a la UNAL.
+8. Solicitar concepto formal a la alianza únicamente sobre las obligaciones de la beca y la compatibilidad del nuevo alcance con el proyecto BPIN.
