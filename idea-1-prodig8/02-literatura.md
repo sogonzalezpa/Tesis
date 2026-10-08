@@ -282,3 +282,75 @@
 - Derivar implicaciones sin afirmar automáticamente que falta una metodología general.
 - Si la brecha no se sostiene: acotar a un tipo de decisión o exigencia transversal.
 - Próximo paso recomendado: piloto de búsqueda y matriz comparativa.
+
+## 2026-10-08 — Dos estudios longitudinales separados
+
+- Fuente: precisión de Sonia en la discusión.
+- Government Analytics y Policy Analytics son objetos diferentes.
+- Propuesta: dos papers; uno por tradición.
+- Sustituye como orientación el artículo integrado propuesto antes por el asistente.
+- Diseño solicitado: estudio longitudinal mediante minería tecnológica.
+- Objetivo: identificar periodos y caracterizar su evolución.
+- Resultado final: áreas temáticas emergentes al corte de 2026.
+- Periodos: deben justificarse con evidencia; no fijarse arbitrariamente.
+- No equiparar fecha de aparición de una etiqueta con origen de la tradición.
+- Una fuente académica puede usar Government Analytics de forma más amplia que el Banco Mundial.
+- Contrastar definiciones para delimitar corpus; no imponer equivalencia ni separación bibliométrica perfecta.
+- Fuente alternativa: https://catalog.gmu.edu/colleges-schools/policy-government/government-analytics-minor/
+
+### Búsqueda complementaria
+
+- No se identificó en esta búsqueda un equivalente exacto a cada diseño propuesto.
+- Esto no demuestra ausencia en toda la literatura.
+- No basta alegar ausencia de un paper que integre ambos campos: son dos proyectos distintos.
+- Novedad: evaluar por separado y frente a antecedentes de cada corpus.
+
+- Antecedente Government Analytics: How scholars can support government analytics.
+- Fuente: https://doi.org/10.1111/puar.13894
+- Revisa artículos empíricos cuantitativos de PAR y JPART en 2013–2023.
+- Examina evolución del uso de fuentes de datos.
+- No equivale a reconstrucción longitudinal de toda la tradición.
+- Diferencial candidato: corpus transversal, periodización y trayectorias temáticas.
+- Estado: diferencial por comprobar.
+
+- Antecedente Policy Analytics: Suominen y Hajikhani (2021).
+- Fuente: https://doi.org/10.1002/poi3.258
+- Diferencial candidato: periodización explícita y transformación de temas hasta 2026.
+- No presentar su bibliometría como idéntica al estudio longitudinal propuesto.
+- Verificar análisis temporal y cobertura antes de concluir novedad.
+
+- Antecedente adicional: Data technologies and analytics for policy and governance: a landscape review.
+- Fuente: https://www.cambridge.org/core/journals/data-and-policy/article/data-technologies-and-analytics-for-policy-and-governance-a-landscape-review/DA6B7A105B992526E8B9BCAA93947B82
+- Revisa tecnologías y analítica del marco Data for Policy.
+- Comparar alcance y tratamiento temporal con el paper de Policy Analytics.
+
+### Diseño longitudinal propuesto por el asistente
+
+- Corpus y búsquedas independientes.
+- Documentos compartidos: registrar solapamiento; no duplicar argumentos.
+- Recuperar raíces por citas y vocabulario histórico.
+- Analizar frecuencias relativas, redes y cambios semánticos.
+- Detectar cambios con ventanas móviles y puntos de cambio cuando el volumen lo permita.
+- Contrastar periodos detectados con hitos y lectura de documentos.
+- Estabilidad: probar otros cortes y parámetros.
+- Caracterizar cada periodo: conceptos, métodos, problemas, fuentes y autores.
+- Seguir nacimiento, continuidad, división, convergencia y declive de temas.
+- No confundir alta frecuencia o centralidad con emergencia.
+- Emergencia: crecimiento relativo, novedad, persistencia y conexión con temas establecidos.
+- Año 2026 incompleto al 2026-10-08.
+- Reportar corte exacto; actualizar antes de enviar.
+- Temas recientes: usar contenido y acoplamiento; controlar rezago de citas.
+- Tech mining: bibliometría y minería textual orientadas a inteligencia de investigación.
+- Patentes: no obligatorias para estos corpus.
+- Referencia de comunidad: https://www.gtmconference.org/
+- Referencia metodológica localizada: Rethinking Thematic Evolution in Science Mapping.
+- Fuente: https://arxiv.org/abs/2603.06436
+- Estado: preprint de 2026; evaluar críticamente antes de adoptar.
+
+### Productos candidatos
+
+- Paper A: Government Analytics — intellectual trajectories, temporal periods and emerging themes.
+- Paper B: Policy Analytics — longitudinal evolution and emerging research fronts.
+- Títulos: propuestas del asistente.
+- Ambos requieren hallazgos propios, no reutilización mecánica del mismo análisis.
+- La comparación entre tradiciones puede quedar como discusión posterior.
