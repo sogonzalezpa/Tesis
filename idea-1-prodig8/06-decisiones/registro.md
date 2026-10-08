@@ -1,0 +1,32 @@
+# Decisiones
+
+## 2026-10-08 — Repositorio de memoria
+
+- Decisión: usar sogonzalezpa/Tesis para hechos y decisiones.
+- Fuente: instrucción de Sonia.
+- Memoria: archivos MD.
+- Estilo: viñetas y frases cortas.
+
+## 2026-10-08 — Idea 1
+
+- Decisión: denominar la carpeta idea-1-prodig8.
+- Alcance: adaptación de PRODIG8 al sector público.
+- Estado: posible idea de tesis.
+- Fuente: instrucción de Sonia.
+
+## 2026-10-08 — Organización
+
+- Implementación delegada por Sonia al asistente.
+- Seis carpetas temáticas.
+- Documentos anteriores conservados como antecedentes.
+- Adjuntos y referencias generales conservados.
+- Motivo: separar razonamiento, evidencia, diseño y acuerdos.
+
+## Pendientes de decisión
+
+- Tema y título definitivos.
+- Caso de aplicación.
+- Alcance territorial.
+- Cambios específicos a PRODIG8.
+- Protocolo de validación.
+- Compatibilidad del alcance con la beca.
