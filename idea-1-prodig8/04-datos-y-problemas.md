@@ -1,6 +1,6 @@
 # Datos y problemas
 
-- Antecedente: [catálogo e inventario preliminar](catalogo-preliminar-2026-10-01.md).
+- Antecedente: [catálogo e inventario preliminar](documentos-referencia/catalogo-preliminar-2026-10-01.md).
 - Incluye MEData y fuentes públicas colombianas.
 - Contiene 20 problemas candidatos.
 - No acredita todavía la viabilidad de todos los casos.

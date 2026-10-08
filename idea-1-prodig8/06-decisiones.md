@@ -17,7 +17,7 @@
 ## 2026-10-08 — Organización
 
 - Implementación delegada por Sonia al asistente.
-- Seis carpetas temáticas.
+- Organización inicial: seis carpetas temáticas; sustituida por archivos MD.
 - Documentos anteriores conservados como antecedentes.
 - Adjuntos y referencias generales conservados.
 - Motivo: separar razonamiento, evidencia, diseño y acuerdos.
@@ -30,3 +30,11 @@
 - Cambios específicos a PRODIG8.
 - Protocolo de validación.
 - Compatibilidad del alcance con la beca.
+
+## 2026-10-08 — Ajuste de estructura
+
+- Decisión: un archivo MD por etapa.
+- Carpeta de apoyo: documentos-referencia.
+- Fuente: corrección de Sonia.
+- Sustituye las carpetas temáticas iniciales.
+- Contenido y documentos conservados.
