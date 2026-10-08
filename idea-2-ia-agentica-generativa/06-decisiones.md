@@ -23,3 +23,15 @@
 - Arquitectura agéntica no equivale a metodología.
 - El foco es desarrollo de soluciones, no únicamente análisis de decisiones.
 - Formulación exploratoria; no aprobación definitiva de tema doctoral.
+
+## 2026-10-08 — Investigación de viabilidad
+
+- Solicitud de Sonia: investigación profunda para validar idea dos.
+- Evaluación del asistente: viable con condiciones; novedad pendiente de prueba.
+- Registrar competidores que impiden afirmar vacío absoluto.
+- Mantener formulación de Sonia; no sustituir por arquitectura.
+- Propuesta: reglas operativas verificables y validación del desarrollo.
+- Propuesta: separar IA de desarrollo e IA dentro de la solución.
+- Propuesta: comparación metodológica y comparación técnica independientes.
+- Ninguna propuesta anterior constituye selección definitiva de Sonia.
+- Próxima evidencia necesaria: matriz sistemática y piloto de aplicación.

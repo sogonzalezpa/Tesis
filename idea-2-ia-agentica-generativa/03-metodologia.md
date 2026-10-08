@@ -86,3 +86,38 @@
 - Etapas previas: propuestas del asistente; revisar frente al desarrollo completo de soluciones.
 - Pendiente: identificar actividades nuevas frente a metodologías analíticas existentes.
 - Pendiente: distinguir IA como herramienta de desarrollo y como componente de la solución.
+
+## 2026-10-08 — Núcleo metodológico candidato
+
+- Estado: diseño propuesto; no metodología validada.
+- Extender procedimientos existentes cuando sea suficiente.
+- No renombrar CEPAL o CRISP-DM con agentes.
+- Definir problema público y producto analítico verificable.
+- Descomponer tareas y clasificar exigencia de evidencia.
+- Elegir técnica convencional, generativa, flujo fijo o agente.
+- Seleccionar autonomía según verificabilidad y consecuencia del error.
+- Documentar criterio de selección; no imponer agentes a todas las tareas.
+- Integrar recuperación, código y herramientas estadísticas/formales.
+- Registrar procedencia de datos, transformaciones y resultados.
+- Separar cálculo, interpretación y valoración normativa.
+- Fijar aceptación, rechazo, abstención y escalamiento por tarea.
+- Probar solución y procedimiento; documentar fallos y límites.
+- Especificar actualización y mantenimiento con pruebas de regresión.
+
+## Artefactos mínimos
+
+- Ficha de problema y usuarios.
+- Mapa de tareas y evidencia necesaria.
+- Matriz de selección tecnológica y autonomía.
+- Contratos de entradas/salidas para herramientas.
+- Registro de procedencia y decisiones.
+- Plan de evaluación y corpus de prueba.
+- Informe de resultados, errores y condiciones de uso.
+- Cada artefacto debe influir en una acción o aceptación concreta.
+
+## Pregunta metodológica vigente propuesta
+
+- ¿Cómo desarrollar soluciones analíticas públicas con IA generativa y agéntica mediante reglas reproducibles de integración y verificación?
+- Evaluar si mejoran calidad y trazabilidad frente a procesos existentes.
+- Identificar condiciones donde la autonomía no aporta.
+- Delimitar familia inicial; no reclamar cobertura universal.
