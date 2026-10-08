@@ -1,0 +1,119 @@
+# **Informe de Evaluación de Viabilidad Científica y Metodológica: Propuesta de Tesis Doctoral en Analítica Prescriptiva para Asignación de Subsidios de Vivienda**
+
+## **Caracterización General y Ficha Técnica de la Propuesta**
+
+La propuesta de tesis doctoral elaborada por Sonia L. González Pardo, bajo la dirección del Dr. Juan David Velásquez Henao dentro del programa de Doctorado en Ingeniería \- Sistemas e Informática de la Universidad Nacional de Colombia (Sede Medellín), aborda un desafío central para la administración pública contemporánea: la optimización y asignación equitativa de subsidios de vivienda urbana en entornos con alta restricción presupuestal1. La investigación se sitúa en la intersección de la ciencia de datos, la investigación operacional, la ingeniería de sistemas y la evaluación de políticas públicas, estructurando su ciclo de vida metodológico mediante el marco unificado PRODIG81.
+
+| Parámetro Institucional / Técnico | Especificación Formal de la Propuesta |
+| :---- | :---- |
+| Título Registrado | Modelo de analítica para la asignación de subsidios públicos de Vivienda para el eje cafetero (Propuesta integrada con el marco metodológico PRODIG8)1 |
+| Candidata a Doctora | Sonia L. González Pardo1 |
+| Director de Tesis | Juan David Velásquez Henao1 |
+| Institución y Posgrado | Universidad Nacional de Colombia \- Sede Medellín, Doctorado en Ingeniería \- Sistemas e Informática1 |
+| Marco Metodológico | PRODIG8 (Project, Data, and Governance Model)1 |
+| Delimitación Territorial | Eje Cafetero con referencia operacional en la ciudad de Medellín1 |
+| Fuentes de Información Primarias | Sisbén IV, Departamento Administrativo Nacional de Estadística (DANE) y Portales de Datos Abiertos1 |
+| Arquitectura Algorítmica | Machine Learning (Random Forest, Gradient Boosting), SHAP e Optimización Multiobjetivo (MILP, NSGA-II / NSGA-III)1 |
+| Horizonte Temporal de Ejecución | 48 Meses distribuidos en 10 etapas operativas1 |
+
+El problema de investigación responde a la tensión structural observada en las urbes latinoamericanas, donde la expansión de programas sociales de habitabilidad contrasta con la escasez de fondos públicos y la opacidad en las reglas de distribución1. Los esquemas tradicionales de focalización presentan inconsistencias severas expresadas en fallas de inclusión o filtración —asignación de incentivos a hogares sin necesidad prioritaria— y errores de exclusión o subcobertura —familias vulnerables que quedan al margen del beneficio—1. Para resolver esta problemática, la investigación plantea como pregunta orientadora cómo diseñar y evaluar un artefacto analítico, guiado por la metodología PRODIG8, que optimice la asignación de subsidios urbanos equilibrando criterios contrapuestos de eficiencia presupuestal y equidad social bajo restricciones institucionales y normativas1. La hipótesis sostiene que la integración sintérgica de modelos predictivos de vulnerabilidad con algoritmos de optimización multiobjetivo produce escenarios de asignación con métricas de cobertura y equidad cuantitativamente superiores a las líneas base tradicionales1.
+
+## **Articulación Epistemológica y Estructura en el Marco Metodológico PRODIG8**
+
+El sustento procedimental de la tesis doctoral adopta el marco PRODIG8, un modelo unificado derivado de la reconciliación estructural secuencial de 18 metodologías para proyectos analíticos (incluyendo KDD, CRISP-DM, TDSP, ASUM-DM y DMME)2. Esta metodología responde a la elevada tasa de fracaso de las iniciativas de analítica avanzada en el sector público, donde la fragmentación entre la ejecución técnica, la gobernanza organizacional y la adaptación continua suele impedir la producción de soluciones sostenibles2. PRODIG8 articula estas dimensiones dentro de una arquitectura estándar alineada con normativas internacionales como ISO/IEC 29110 e IEEE 70002.
+
+| Dimensión PRODIG8 | Rol en la Arquitectura | Aplicación Específica en la Tesis Doctoral |
+| :---- | :---- | :---- |
+| Definición del Alcance | Ejecución Núcleo | Formalización del problema público, delimitación del subsidio, reglas institucionales, criterios de éxito y restricciones presupuestales1 |
+| Comprensión de Datos | Ejecución Núcleo | Diagnóstico de fuentes (Sisbén IV, DANE), verificación de representatividad, calidad, cobertura y consistencia1 |
+| Preparación de Datos | Ejecución Núcleo | Integración de registros administrativos, anonimización, tratamiento de datos faltantes e ingeniería de características1 |
+| Diseño del Proyecto | Ejecución Núcleo | Selección de clasificadores (Random Forest, Gradient Boosting), interpretabilidad (SHAP) y formulación matemática de optimización1 |
+| Evaluación de Modelos | Ejecución Núcleo | Validación de precisión predictiva, auditoría de sesgos algorítmicos, análisis de fronteras de Pareto y simulaciones de sensibilidad1 |
+| Operación y Mantenimiento | Ejecución Núcleo | Especificación del prototipo computacional de apoyo a la decisión, monitoreo de deriva de datos y condiciones de uso1 |
+| Gobernanza y Ética | Control Transversal | Supervisión continua de privacidad (Ley 1581 de 2012), equidad distributiva, transparencia procedimental y revisión humana1 |
+| Mejora Continua | Feedback Adaptativo | Retroalimentación iterativa para recalibrar parámetros, incorporar nuevas variables socioeconómicas y actualizar escenarios de política pública1 |
+
+La solidez metodológica de este enfoque radica en la separación funcional entre las actividades de ejecución del ciclo analítico, los mecanismos de control ético y de gobernanza que actúan de manera transversal, y las rutas de adaptación continua que retroalimentan el sistema2. De este modo, el proyecto evita tratar el desarrollo de algoritmos como un proceso puramente lineal o tecnocrático2. Al integrar la Gobernanza y Ética como una dimensión de control permanente, la tesis garantiza que la asignación computacional de recursos públicos responda a criterios auditales de debido proceso, minimización del sesgo algorítmico y protección de datos personales desde las fases iniciales de recolección hasta la entrega final de escenarios prescriptivos1.
+
+## **Viabilidad Causal, Algorítmica y Tecno-Científica del Artefacto Analítico**
+
+### **Componente Predictivo: Modelado de Vulnerabilidad Multidimensional e Interpretabilidad**
+
+La fase inicial del artefacto analítico proyecta el entrenamiento de clasificadores supervisados, específicamente ensambles de árboles de decisión como Random Forest y Gradient Boosting, para estimar el nivel de vulnerabilidad socioeconómica de los hogares postulantes1. Epistemológicamente, esta aproximación se conecta con el Enfoque de Capacidades de Amartya Sen y con el desarrollo de Índices de Pobreza Multidimensional (IPM) promovidos por Alkire y Foster, reconociendo que la privación social no se agota en el ingreso monetario, sino en la intersección de carencias en vivienda, educación, empleo e infraestructura básica7.  
+Los algoritmos de ensamble ofrecen una elevada capacidad para capturar relaciones no lineales y dependencias complejas entre los atributos socioeconómicos de las familias8. No obstante, el despliegue de estos modelos en el ámbito público suele enfrentar la barrera de la opacidad algorítmica o problema de "caja negra", el cual invalida el acto administrativo al imposibilitar la justificación transparente de por qué un hogar es priorizado o excluido4. Para contrarrestar esta limitación, la propuesta incorpora técnicas de interpretabilidad agnósticas al modelo mediante Shapley Additive exPlanations (SHAP)1. Fundamentado en la teoría de juegos cooperativos, SHAP asigna a cada variable socioeconómica un valor de importancia relativa que explica cuantitativamente la contribución aditiva de dicho atributo al puntaje final de vulnerabilidad del hogar9. Esta capacidad es determinante para asegurar que las predicciones sean legibles, auditables e impugnables por parte de la ciudadanía y los organismos de control4.
+
+### **Componente Prescriptivo: Formulación de la Optimización Multiobjetivo**
+
+El núcleo innovador de la tesis reside en la transición de la analítica predictiva (identificación de la necesidad) hacia la analítica prescriptiva (determinación óptima de la asignación)1. Para ello, la autora propone la formulación de un modelo de optimización multiobjetivo empleando Programación Entera Mixta (MILP) o metaheurísticas evolutivas como los algoritmos NSGA-II y NSGA-III1. La necesidad de este enfoque estriba en que las decisiones de gasto público deben satisfacer múltiples metas contrapuestas que no pueden reducirse a un único indicador escalar3:
+
+* **Maximización de la Eficiencia Presupuestal:** Orientada a optimizar el uso de los fondos públicos disponibles, asegurando la ejecución completa del presupuesto sin incurrir en saldos inoperantes y maximizando el número de soluciones habitacionales otorgadas por unidad monetaria invertida1.  
+* **Maximización de la Equidad Social:** Enfocada en reducir las brechas de deprivación en los estratos con mayor grado de exclusión, utilizando funciones de bienestar social o indicadores de dispersión distributiva sobre la población objetivo1.  
+* **Cumplimiento de Restricciones Operativas e Institucionales:** Garantizando que el volumen de asignación no exceda el techo presupuestal fijado, respetando los topes de subsidio individual por hogar y acatando las cuotas territoriales o normativas establecidas por el programa social1.
+
+Debido a la naturaleza combinatoria del espacio de soluciones —donde miles de hogares compiten por un conjunto finito de subsidios— el cálculo exacto mediante programación matemática lineal o discreta suele volverse incalculable a gran escala7. El empleo de algoritmos genéticos como NSGA-II o NSGA-III permite explorar eficientemente el espacio de búsqueda para aproximar la Frontera de Pareto3. Esto proporciona a los gestores públicos un abanico de soluciones no dominadas, visibilizando las tasas de intercambio (trade-offs) entre el costo financiero de la política y las ganancias en equidad distributiva7.
+
+## **Análisis Crítico de Factibilidad, Lagunas de Delimitación y Matriz de Riesgos**
+
+El examen minucioso del documento revela que, si bien la arquitectura teórica es sólida, existen incoherencias operativas y ambigüedades en la delimitación que representan riesgos significativos para la viabilidad del grado doctoral1. A continuación se detallan las cuatro inconsistencias críticas identificadas junto con sus implicaciones y soluciones metodológicas:
+
+> 1. **Incongruencia en la Delimitación Geográfico-Territorial:** La propuesta exhibe un descalce entre su encuadre conceptual y las fuentes de datos especificadas1. El título, la hipótesis y el planteamiento del problema circunscriben la investigación al Eje Cafetero (región conformada por los departamentos de Caldas, Risaralda y Quindío), mientras que la justificación y la caracterización empírica hacen alusión continua a la ciudad de Medellín (Departamento de Antioquia) y al aprovechamiento de sus repositorios locales de datos abiertos1. Esta falta de articulación debilita la coherencia del proyecto, dado que Medellín posee un ecosistema de datos e infraestructura administrativa significativamente distinto al de los municipios del Eje Cafetero. La candidata debe unificar la unidad espacial de análisis, optando por circunscribir el trabajo al área metropolitana de Medellín como caso piloto o estructurar un análisis comparativo entre las capitales del Eje Cafetero (Manizales, Pereira, Armenia) alimentado exclusivamente por bases de datos de cobertura nacional1.  
+> 2. **Gobernanza de Microdatos, Privacidad y Barreras Legales:** El modelo predictivo requiere realizar enlaces de registros a nivel de microdatos individuales de los hogares partiendo de fuentes como el Sisbén IV y los censos del DANE1. No obstante, el ordenamiento jurídico colombiano —mediante la Ley 1581 de 2012 sobre Habeas Data y la Ley 79 de 1993 sobre Reserva Estadística— impone restricciones severas a la cesión y cruce de información administrativa identificable sin consentimiento explícito5. La sola presencia de datos abiertos agregados a nivel municipal o zonal no asegura el acceso a los datos requeridos para el entrenamiento de los clasificadores a nivel de hogar1. La tesis debe formalizar de manera urgente acuerdos interinstitucionales de confidencialidad o considerar el entrenamiento de modelos sobre datos sintéticos garantizando la preservación de las propiedades correlacionales de la población1.  
+> 3. **Deficiente Formalización Matemática de Métricas e Indicadores:** Si bien el documento nombra indicadores clave como eficiencia, equidad, cobertura, filtración y subcobertura, omite la formulación matemática explícita de sus operadores y de la línea base de comparación1. Resulta indispensable definir numéricamente cómo se evaluará la filtración (porcentaje de recursos asignados a hogares no prioritarios) y mediante qué índice estadístico (por ejemplo, Gini o Atkinson) se medirá la equidad social en la distribución final del bienestar habitacional, garantizando la reproducibilidad de la simulación frente al modelo convencional de asignación por turno o corte unidimensional1.  
+> 4. **Aclaración del Alcance Real del Artefacto Analítico:** La investigación debe precisar de manera explícita que su contribución se limita al diseño, desarrollo y simulación computacional de un prototipo de sistema de apoyo a la decisión (DSS)1. El proyecto no debe comprometerse con la implementación institucional directa en los sistemas de información gubernamentales, ni con la medición de impactos causales reales en la población, ya que estos aspectos sobrepasan las fronteras de ejecución de una tesis doctoral en ingeniería1.
+
+| Factor de Riesgo Identificado | Nivel de Impacto | Probabilidad | Dimensión PRODIG8 Afectada | Estrategia de Mitigación Sugerida |
+| :---- | :---- | :---- | :---- | :---- |
+| Incongruencia en la delimitación geográfica (Medellín vs. Eje Cafetero) | Alto | Alta | Definición del Alcance | Redefinir unívocamente la unidad territorial y seleccionar un programa de subsidios específico1 |
+| Restricción legal o denegación de acceso a microdatos anonimizados | Crítico | Alta | Comprensión y Preparación de Datos | Establecer convenios de uso de datos con custodios oficiales o generar datos sintéticos representativos1 |
+| Ambigüedad en la formulación matemática de las funciones objetivo | Medio | Media | Diseño del Proyecto | Formalizar las ecuaciones de eficiencia, equidad y restricciones presupuestales para el Examen de Calificación1 |
+| Opacidad algorítmica y sesgos implícitos en la priorización | Alto | Media | Gobernanza y Ética | Aplicar pruebas sistemáticas de equidad algorítmica (fairness) y auditar decisiones con SHAP1 |
+| Inviabilidad de convergencia computacional a gran escala | Medio | Media | Evaluación de Modelos | Evaluar el desempeño de algoritmos evolutivos (NSGA-III) mediante pruebas de estrés sobre la frontera de Pareto1 |
+
+## **Evaluación de la Factibilidad Temporal y Plan de Trabajo**
+
+La planificación temporal de la propuesta contempla un horizonte de ejecución de 48 meses, estructurado en 10 etapas operativas secuenciales y traslapadas1. Esta programación se ajusta a los estándares académicos de exigencia para programas de doctorado en la Universidad Nacional de Colombia1.
+
+| Intervalo Temporal | Etapa Planificada | Actividades Clave y Entregables Asociados | Viabilidad y Factor de Riesgo |
+| :---- | :---- | :---- | :---- |
+| Meses 1–8 | Revisión y Bibliometría | Mapeo sistemático de literatura en analítica pública, optimización y gobernanza | Alta viabilidad; base teórica madura1 |
+| Meses 1–12 | Gestión de Datos | Trámite de permisos, descarga e inventario de Sisbén IV, DANE y datos abiertos | Riesgo crítico de retraso por barreras de acceso a microdatos1 |
+| Meses 6–14 | Recolección y Análisis | Limpieza, exploración espacial y armonización de fuentes socioeconómicas | Alta viabilidad sujeta a la resolución de permisos1 |
+| Meses 10–18 | Modelos Analíticos | Entrenamiento de clasificadores (Random Forest, Gradient Boosting) y análisis SHAP | Alta viabilidad en entornos estándar de ciencia de datos1 |
+| Meses 16–26 | Modelo de Optimización | Formulación de MILP y NSGA-II/III para exploración de fronteras de Pareto | Viabilidad media; requiere pruebas de convergencia algorítmica1 |
+| Meses 18–24 | Examen de Calificación | Defensa oral del marco conceptual, la formulación matemática y avances empíricos | Hito crítico de validación académica formal1 |
+| Meses 24–34 | Integración y Validación | Construcción del prototipo computacional, simulación de escenarios y análisis de sensibilidad | Alta viabilidad en ambiente de simulación1 |
+| Meses 28–42 | Publicaciones Científicas | Redacción y sometimiento de artículos científicos en revistas indizadas | Viabilidad ligada a la novedad técnica demostrada1 |
+| Meses 36–46 | Redacción de Tesis | Consolidación del manuscrito final de disertación doctoral | Alta viabilidad bajo cumplimiento del cronograma previo1 |
+| Meses 46–48 | Sustentación Doctoral | Defensa pública del artefacto analítico y el marco metodológico ante jurados | Hito final del programa posgradual1 |
+
+El plan de trabajo evidencia una distribución coherente de las cargas operativas a lo largo de los cuatro años de estudio1. No obstante, el período comprendido entre los meses 1 y 12 concentrará el mayor nivel de riesgo procedimental debido a la incertidumbre inherente a la obtención de microdatos administrativos1. La superposición planificada entre la preparación de datos y el entrenamiento de los modelos predictivos (meses 10 a 14\) requerirá que la tesista cuente con alternativas de contingencia, como el uso de conjuntos de datos simulados o fuentes secundarias de acceso abierto, para no desplazar las fases subsiguientes de optimización y calificación1.
+
+## **Conclusiones Dictaminantes y Recomendaciones para la Defensa de la Propuesta**
+
+El análisis integral de la viabilidad científica, técnica y procedimental permite emitir un dictamen de **VIABILIDAD CONDICIONADA**. La propuesta de tesis doctoral reúne los méritos teóricos, la fundamentación metodológica y la relevancia socio-técnica para realizar un aporte original al campo de la ingeniería de sistemas y la analítica de decisiones públicas1. Sin embargo, la aprobación definitiva y el éxito de la investigación están sujetos a la subsanación de los vacíos de delimitación identificados antes de la presentación del Examen de Calificación1.  
+A continuación se sintetizan las recomendaciones normativas dirigidas a la investigadora y a la dirección de la tesis:
+
+> 1. **Alineación Territorial Unívoca:** Definir con precisión el contexto geográfico final del proyecto1. Si se mantiene el Eje Cafetero, deben eliminarse las referencias analíticas a Medellín y justificar la disponibilidad de datos en las capitales de dicha región1. Si se opta por trabajar con los datos de Medellín debido a su madurez tecnológica, se debe ajustar el título y la hipótesis para reflejar a Medellín como el entorno de estudio y validación1.  
+> 2. **Estrategia Formal de Gobernanza de Datos:** Redactar un protocolo explícito de acceso, anonimización y vinculación de microdatos dentro de la dimensión de Gobernanza y Ética de PRODIG8, demostrando el cumplimiento riguroso de las leyes de reserva estadística y protección de datos personales1.  
+> 3. **Formalización Matemática de la Optimización:** Detallar analíticamente el sistema de ecuaciones para las funciones objetivo de eficiencia y equidad, especificando los operadores que permitirán construir la frontera de Pareto frente a la línea base institucional1.  
+> 4. **Acotamiento del Alcance del Artefacto:** Clarificar en el documento propositivo que la meta del doctorado es el desarrollo y evaluación computacional de un prototipo de apoyo a decisiones (DSS) basado en simulación de escenarios, desligando el trabajo de compromisos de despliegue institucional o evaluación de impacto en campo1.  
+> 5. **Sistematización de la Contribución Metodológica:** Documentar el proceso de adaptación de PRODIG8 al contexto público como una contribución metodológica independiente, demostrando cómo la articulación de sus 8 dimensiones mejora la tasa de éxito de los proyectos de analítica prescriptiva en el sector gubernamental1.
+
+#### **Obras citadas**
+
+> 1. [https\://drive.google.com/open?id=1G2C2-dJtFZr9DJ1eXvts3LtFXjEvXydl](https://drive.google.com/open?id=1G2C2-dJtFZr9DJ1eXvts3LtFXjEvXydl)  
+> 2. 2026-08-21-manuscript-with-author-details (2) (1).docx  
+> 3. Managing housing supply system gap through subsidy optimization, [https\://www\.tandfonline.com/doi/full/10.1080/21650020.2026.2622227](https://www.tandfonline.com/doi/full/10.1080/21650020.2026.2622227)  
+> 4. Foundations of Prediction in the Public Sphere, [https\://edoc.ub.uni-muenchen.de/37518/1/Fischer\_Abaigar\_Unai.pdf](https://edoc.ub.uni-muenchen.de/37518/1/Fischer_Abaigar_Unai.pdf)  
+> 5. Plan Territorial de Salud \- Observatorio de Salud de Bogotá, [https\://saludata.saludcapital.gov.co/osb/wp-content/uploads/2024/06/4\_\_plan\_territorial\_de\_salud\_2024\_2027.pdf](https://saludata.saludcapital.gov.co/osb/wp-content/uploads/2024/06/4__plan_territorial_de_salud_2024_2027.pdf)  
+> 6. Jurnal 1 | PDF | Artificial Intelligence \- Scribd, [https\://www\.scribd.com/document/1065252207/Jurnal-1](https://www.scribd.com/document/1065252207/Jurnal-1)  
+> 7. Learning Multidimensional Urban Poverty Representation ... \- arXiv, [https\://arxiv.org/html/2509.04958v1](https://arxiv.org/html/2509.04958v1)  
+> 8. Reconceptualizing poverty in the digital era: AI-enabled mapping, [https\://www\.frontiersin.org/journals/sustainability/articles/10.3389/frsus.2026.1728240/full](https://www.frontiersin.org/journals/sustainability/articles/10.3389/frsus.2026.1728240/full)  
+> 9. Using Explainable Artificial Intelligence to Identify Key ... \- MDPI, [https\://www\.mdpi.com/2071-1050/14/16/9872](https://www.mdpi.com/2071-1050/14/16/9872)  
+> 10. Explainable Machine Learning for Poverty Prediction in Central Java, [https\://jurnal.polgan.ac.id/index.php/sinkron/article/view/15312](https://jurnal.polgan.ac.id/index.php/sinkron/article/view/15312)  
+> 11. (PDF) Beyond Opacity: Interpretable Machine Learning for Hospital, [https\://www\.researchgate.net/publication/400739746\_Beyond\_Opacity\_Interpretable\_Machine\_Learning\_for\_Hospital\_Efficiency\_Assessment](https://www.researchgate.net/publication/400739746_Beyond_Opacity_Interpretable_Machine_Learning_for_Hospital_Efficiency_Assessment)  
+> 12. Utilizing Machine Learning and Explainable AI for Assessing Income, [https\://etasr.com/index.php/ETASR/article/view/16958](https://etasr.com/index.php/ETASR/article/view/16958)  
+> 13. Decision Support System for Prioritizing PKH Social Assistance, [https\://jutif.if.unsoed.ac.id/index.php/jurnal/article/download/5714/1372](https://jutif.if.unsoed.ac.id/index.php/jurnal/article/download/5714/1372)  
+> 14. Copyright Undertaking \- PolyU Electronic Theses, [https\://theses.lib.polyu.edu.hk/bitstream/200/13294/3/7741.pdf](https://theses.lib.polyu.edu.hk/bitstream/200/13294/3/7741.pdf)  
+> 15. IFORS 2021, [https\://www\.euro-online.org/conf/admin/tmp/program-ifors2021.pdf](https://www.euro-online.org/conf/admin/tmp/program-ifors2021.pdf)  
+> 16. configuracion-de-registros-administrativos-para-su, [https\://www\.sen.gov.co/sites/default/files/pagina-migraciones-files/2024-12/configuracion-de-registros-administrativos-para-su-aprovechamiento-estadistico-en-el-SEN.pdf](https://www.sen.gov.co/sites/default/files/pagina-migraciones-files/2024-12/configuracion-de-registros-administrativos-para-su-aprovechamiento-estadistico-en-el-SEN.pdf)
