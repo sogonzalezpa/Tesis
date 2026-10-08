@@ -33,3 +33,13 @@
 - ¿Qué necesidad pública no cubren los marcos existentes?
 - ¿Cómo medir el aporte de la metodología?
 - ¿Qué caso ofrece datos y resultados observables?
+
+## 2026-10-08 — Fundamento de la propuesta
+
+- Fuente: discusión con Sonia.
+- Prioridad: delimitar analítica en el sector público mediante literatura.
+- La definición operativa actual requiere respaldo y contraste.
+- Vacío conceptual en las notas: identificado por Sonia.
+- Vacío científico en la literatura: todavía no demostrado.
+- La necesidad metodológica debe surgir de la evidencia.
+- Adaptar PRODIG8: hipótesis de trabajo, no conclusión anticipada.

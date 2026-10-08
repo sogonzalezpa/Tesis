@@ -38,3 +38,13 @@
 - Fuente: corrección de Sonia.
 - Sustituye las carpetas temáticas iniciales.
 - Contenido y documentos conservados.
+
+## 2026-10-08 — Autonomía para mantener notas
+
+- Sonia autoriza al asistente a decidir qué registrar durante la discusión.
+- Actualizar las notas pertinentes sin solicitar confirmación rutinaria.
+- Registrar hechos, razonamientos, acuerdos y pendientes relevantes.
+- Mantener viñetas y frases cortas.
+- Identificar fuente, fecha y estado.
+- Autonomía de registro: no convierte propuestas en decisiones de Sonia.
+- Fuente: instrucción explícita de Sonia.

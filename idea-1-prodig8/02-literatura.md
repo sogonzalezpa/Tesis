@@ -13,3 +13,15 @@
 - Separar metodologías, aplicaciones y marcos de gobernanza.
 - Comparar cobertura de fases, roles, productos y evaluación.
 - Sustentar la brecha con estudios concretos.
+
+## 2026-10-08 — Orden de revisión
+
+- Fuente: discusión con Sonia; secuencia propuesta por el asistente.
+- Primero: definiciones y alcance de analítica en el sector público.
+- Contrastar Government Analytics y Public Sector Analytics.
+- Segundo: exigencias propias del contexto público.
+- Tercero: metodologías existentes, adaptaciones y limitaciones documentadas.
+- Cuarto: determinar si se justifica adaptar, extender o proponer una metodología.
+- Después: evaluar la pertinencia de PRODIG8 como base.
+- Pregunta inicial: ¿cómo se conceptualiza la analítica pública y qué exige al desarrollo y evaluación de proyectos?
+- Pendiente: responder con fuentes verificadas.
