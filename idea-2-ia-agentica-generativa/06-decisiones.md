@@ -16,3 +16,10 @@
 - Completar revisión de competidores.
 - Estimar recursos y costes con piloto.
 - Verificar obligaciones de beca.
+
+## 2026-10-08 — Formulación de idea 2
+
+- Decisión de Sonia: Una metodología para el desarrollo de soluciones analíticas en el sector público usando IA generativa y agéntica.
+- Arquitectura agéntica no equivale a metodología.
+- El foco es desarrollo de soluciones, no únicamente análisis de decisiones.
+- Formulación exploratoria; no aprobación definitiva de tema doctoral.

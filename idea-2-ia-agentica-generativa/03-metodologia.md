@@ -1,8 +1,8 @@
 # Diseño candidato
 
 - Estado: propuesta del asistente.
-- Artefacto: arquitectura y protocolo de apoyo al análisis.
-- Alcance inicial: un tipo de decisión pública.
+- Artefacto central: metodología de desarrollo de soluciones analíticas públicas.
+- Caso de validación y alcance analítico: pendientes de definición.
 - Entrada: documentos y datos verificables.
 - Recuperación: evidencia con procedencia.
 - Extracción: alternativas, criterios y restricciones.
@@ -77,3 +77,12 @@
 
 - ¿Cómo integrar IA generativa y agéntica en proyectos de analítica para decisiones públicas mediante un procedimiento reproducible que preserve evidencia, restricciones y evaluación?
 - Estado: formulación propuesta por el asistente.
+
+## 2026-10-08 — Formulación vigente
+
+- Una metodología para el desarrollo de soluciones analíticas en el sector público usando IA generativa y agéntica.
+- Fuente: Sonia.
+- Sustituye formulaciones centradas en arquitectura o exclusivamente en decisiones.
+- Etapas previas: propuestas del asistente; revisar frente al desarrollo completo de soluciones.
+- Pendiente: identificar actividades nuevas frente a metodologías analíticas existentes.
+- Pendiente: distinguir IA como herramienta de desarrollo y como componente de la solución.
